@@ -3,192 +3,138 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    #about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Alexander Momot
+    tagline: Software Development Engineer in Test
+    avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
+    email: alexander.momot@gmail.com
+    phone: +7 916 495 0985
+    timezone: Europe/Moscow Timezone
+    citizenship: Russia
+    #website: blog.webjeda.com #do not add http://
+    linkedin: alexander-momot
+    #xing: alandoe
+    #github: sharu725
+    telegram: alexander.momot
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    #twitter: '@webjeda'
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+    #codewars:
+    #goodreads: # Number-Username, e.g. 123456-alandoe
+    #pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
-      - idiom: English
+      - idiom: Russian
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
+      - idiom: English
+        level: Upper-Intermediate
 
     interests:
-      - item: Climbing
+      - item: Hiking
         link:
 
-      - item: Snowboarding
+      - item: Travel
         link:
 
-      - item: Cooking
+      - item: Piano
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Methodical software QA professional with proven expertise in manual and automated testing of various applications, both mobile and browser.
+      Highly experienced with Selenium, Appium and REST API tesing automation.
+      Able to work well with developers, customers and testers of all backgrounds to smoothly test and improve products.
+      Key powers as SDET is
+      - Test framework implementation from scratch
+      - Implement and support jenkins job run and automated tests schedule and report
+      - Isolated testing using mocking tools, e.g. wiremock
+      - Plugins development for the existing solutions
+      - Developing tools for testing, like reports, daemons or services to maintain and support testing environments, clean test data, etc.
+      - Analyze stakeholder's needs and propose different solutions to solve the task
+
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+    - degree: Master's Degree in Computer Science
+      university: Moscow Aviation University
+      time: 2006 - 2012
+
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: SDET
+      time: Dec 2021 - Present
+      company: Citigroup (CITI BANK)
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        The main aim was to improve existing SDLC for testing of mobile applications, especially
+          - Inherit and adopt current existing project from the Israel team, then to continue testing using test cases
+          - Then improve existing test cases and scenarios, create a test plan and divide existing tests by suites appropriate for the different types of testing (e.g. sanity, full regression)
+          - Do the testing and return to the customer with a feedback and test reports
+          - Collaborated with developers and business analysts to obtain feedback into software design and testing
+          - Utilized modern test practices in SDET collaborations throughout team
+          - Contributed to project test strategy development and growth
+          - Implemented manual testing and improved test management according to the latest approach, following established methodologies and practices
+          - Identified and documented issues with the functionality or appearance of mobile trading applications
+    - role: Automation Test Lead
+      time: 2017 - 2021
+      company: EPAM/Mastercard (from 2019)
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Used tools such as Selenium, JUnit and internally-developed framework,
+        to effectively automate testing, improve testing accuracy and reduce turnaround times,
+        Contributed to the code base of the framework.
+          - Delivered progress reports, status updates and quality metrics to management
+          - Identified, analyzed and documented problems with program function and output
+          - Tracked bugs, monitored resolutions and worked with developers on complex issues
+          - Designed test plans, scenarios, scripts and procedures
+          - Accepting developer's stories according to the Scaled Agile Framework (SAFe), then created and covered them by the test cases and test automation
+          - Performing both API and UI testing
+    - role: Software Automation Testing Engineer
+      time: 2013 - 2017
+      company: Various
+
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Latest projects
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Citi Velocity
+        link: "https://www.citivelocity.com/"
+        tagline: "A trading application, you can trade with currency pairs, metals, crypto and futures"
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Gosuslugi
+        link: "https://www.gosuslugi.ru"
+        tagline: "A goverment services website for citizens"
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Mastermind
+        link: "https://www.mastercardservices.com/en/solutions/consumer-engagement/loyalty-offers"
+        tagline: "Targeting and loyalty offers based on a big data. Worked both as developer and qa engineer"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Java & Python
+        level: 100%
+
+      - name: Selenium & Appium
+        level: 100%
+
+      - name: Docker
         level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Jenkins Pipelines
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Spring Boot
+        level: 75%
 
-      - name: Sketch & Photoshop
+      - name: Kafka
         level: 60%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+      - name: PostgreSQL
+        level: 50%
+
